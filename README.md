@@ -1,4 +1,4 @@
 appjangle-helloworld-jre
 ========================
 
-Appjangle Hello World for Java Environments
+Hello World for Java Environments for the [Appjangle](http://appjangle.com) platform.
