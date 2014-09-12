@@ -1,5 +1,6 @@
 import io.nextweb.Query;
 import io.nextweb.Session;
+import io.nextweb.promise.BasicPromise;
 
 import com.appjangle.jre.AppjangleJre;
 
@@ -11,7 +12,10 @@ public class HelloWorld {
 		
 		Query hello = session.seed().setValue("Hello, World!");
 		
-		System.out.println("Here: "+hello.get().uri());
+		
+		
+		System.out.println("Here: "+hello.get());
+		
 		
 		session.close().get();
 		
