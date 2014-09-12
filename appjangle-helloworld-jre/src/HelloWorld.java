@@ -16,6 +16,8 @@ public class HelloWorld {
 		
 		session.close().get();
 		
+		System.out.println("And I'm done!");
+		
 	}
 
 }
