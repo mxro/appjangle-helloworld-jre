@@ -14,6 +14,7 @@ public class HelloWorld {
 		System.out.println("Here: "+hello.get().uri());
 		
 		session.close().get();
+		
 	}
 
 }
