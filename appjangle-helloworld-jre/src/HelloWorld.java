@@ -1,6 +1,5 @@
 import io.nextweb.Query;
 import io.nextweb.Session;
-import io.nextweb.promise.BasicPromise;
 
 import com.appjangle.jre.AppjangleJre;
 
