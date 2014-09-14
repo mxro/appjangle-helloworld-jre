@@ -12,11 +12,8 @@ public class HelloWorld {
 		Query hello = session.seed().setValue("Hello, World!");
 		
 		System.out.println("Here: "+hello.get());
-		
-		
+
 		session.close().get();
-		
-		System.out.println("And I'm done!");
 		
 	}
 
